@@ -1,0 +1,38 @@
+var myAge = 27;
+// I created a variable called myAge and the number value of that variable is 27. This is my current age.
+
+var earlyYears = 2;
+
+// I created a variable called earlyYears and the number value of that that variable is 2.
+
+earlyYears = earlyYears * 10.5;
+
+var laterYears = myAge -= 2;
+
+// I created a variable called laterYears and the number value of that variable is myAge minus 2. 
+
+laterYears = laterYears *= 4;
+
+// Mutiplying laterYears by 4 to represent number of dog years accounted by my later years. 
+
+console.log(earlyYears);
+console.log(laterYears);
+
+var myAgeInDogYears = earlyYears + laterYears;
+
+console.log(myAgeInDogYears);
+// This variable represents the sum of earlyYears and laterYears. 
+
+var myName ='Chris';
+
+myName = myName.toLowerCase();
+
+console.log(myName);
+
+/*  Created a variable called myName and gave it a string value of Chris. 
+    I then call its built-in method by changing it to lowercase.            */
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+/*  This console log represents the string interpolation of various variables that produced the sentence:
+    My name is chris. I am 25 years old in human years which is 121 years old in dog years.           */
